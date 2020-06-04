@@ -23,7 +23,7 @@ if($halaman == "data-mahasiswa"){
             <nav class="navbar header-navbar pcoded-header" >
                 <div class="navbar-wrapper">
                     <div class="navbar-logo" navbar-theme="theme4">
-                        <a class="mobile-menu" id="mobile-collapse" href="#!">
+                        <a class="mobile-menu" id="mobile-collapse" href="index.php">
                             <i class="ti-menu"></i>
                         </a>
                         <a href="#!">
