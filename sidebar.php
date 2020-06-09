@@ -23,7 +23,7 @@ if($halaman == "data-mahasiswa"){
             <nav class="navbar header-navbar pcoded-header" >
                 <div class="navbar-wrapper">
                     <div class="navbar-logo" navbar-theme="theme4">
-                        <a class="mobile-menu" id="mobile-collapse" href="index.php">
+                        <a class="mobile-menu" id="mobile-collapse" href="#!">
                             <i class="ti-menu"></i>
                         </a>
                         <a href="#!">
@@ -45,13 +45,11 @@ if($halaman == "data-mahasiswa"){
                                     </a>
                                 </li>
                             </ul>
-
-
                             <ul class="nav-right">
                                 <li class="user-profile header-notification">
-                                    <a href="#!">
+                                    <a href="index.php">
                                         <img src="assets/images/user.png" alt="User-Profile-Image">
-                                        <span>John Doe</span>
+                                        <span><?php echo $_SESSION['nama'];?></span>
                                     </a>
                                 </li>
                             </ul>
@@ -93,6 +91,17 @@ if($halaman == "data-mahasiswa"){
                                     </a>
                                 </li>
                             </ul>
+                            <div class="pcoded-navigatio-lavel">Akun</div>
+                            <ul class="pcoded-item pcoded-left-item">
+                                <li>
+                                    <a href="logout.php">
+                                        <span class="pcoded-micon"><i class="icofont icofont-sign-out"></i></span>
+                                        <span class="pcoded-mtext">Log out</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            
 
                         </div>
                     </nav>

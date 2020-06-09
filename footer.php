@@ -10,7 +10,7 @@
         $(document).ready(function(){
             $('#example').DataTable({
                 "pageLength": 5,
-                dom: 't<"row"<"col-md-4"><"col-md-auto"p><"col-md-4">>'
+                dom: 'tp'
             });
         });
     </script>
@@ -28,9 +28,5 @@
     <script src="assets/js/pcoded.min.js"></script>
     <script src="assets/js/demo-12.js"></script>
     <script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
-
-
-
 </body>
-
 </html>
